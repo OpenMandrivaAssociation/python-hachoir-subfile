@@ -1,6 +1,6 @@
 %define module_name hachoir-subfile
 
-Summary:	A tool based on hachoir-parser to find subfiles in any binary stream.	
+Summary:	A tool based on hachoir-parser to find subfiles in any binary stream
 Name:		python-%{module_name}
 Version:	0.5.3
 Release:	%mkrel 2
