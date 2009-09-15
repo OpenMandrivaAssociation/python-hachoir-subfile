@@ -3,7 +3,7 @@
 Summary:	A tool based on hachoir-parser to find subfiles in any binary stream
 Name:		python-%{module_name}
 Version:	0.5.3
-Release:	%mkrel 2
+Release:	%mkrel 3
 Source0:	http://cheeseshop.python.org/packages/source/h/%{module_name}/%{module_name}-%{version}.tar.gz
 License:	GPLv2
 Group:		Development/Python
