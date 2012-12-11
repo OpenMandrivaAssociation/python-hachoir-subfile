@@ -36,3 +36,35 @@ rm -rf %{buildroot}
 %doc AUTHORS COPYING README
 %{_bindir}/*
 %{py_puresitedir}/*
+
+
+%changelog
+* Wed Nov 17 2010 Funda Wang <fwang@mandriva.org> 0.5.3-3mdv2011.0
++ Revision: 598269
+- rebuild for py2.7
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.5.3-3mdv2010.0
++ Revision: 442179
+- rebuild
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 0.5.3-2mdv2009.1
++ Revision: 323732
+- fix summary
+- rebuild
+
+  + Adam Williamson <awilliamson@mandriva.org>
+    - rebuild with python 2.6
+    - clean spec
+    - new release 0.5.3
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Jul 17 2007 Jérôme Soyer <saispo@mandriva.org> 0.5.2-1mdv2008.0
++ Revision: 52873
+- Import python-hachoir-subfile
+
